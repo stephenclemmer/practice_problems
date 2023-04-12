@@ -141,6 +141,12 @@ string added to the end of the array the number of times of the integer.  You sh
 ex: ["potato"], 3, "ice" = ["potato", "ice", "ice", "ice"]
 */
 
+function bulkAdd(arr, int, str){
+  for (let i = int; i > 0; i--){
+    arr.push(str)
+  }
+  return arr;l
+}
 
 
 
