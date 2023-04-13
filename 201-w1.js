@@ -174,3 +174,12 @@ Then remove the item from the list.
 Then it should log "I have bought the item!" 
 Then display the remaing list and return the list. 
  */
+
+function checkOff(arr, item){
+  console.log(arr);
+
+  for (let i = 0; i < arr.length; i++){
+    
+  }
+
+}
