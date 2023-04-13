@@ -161,7 +161,9 @@ ex: ["potato", "ice", "apple"] =
 "(3) apple"
 */
 
-
+function viewList(arr){
+  console.log(arr.sort());
+}
 
 
 
